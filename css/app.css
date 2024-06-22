@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 
 .font-estetik {
     font-family: 'Sacramento', cursive !important;
-    color: #ffffff !important;
+    color: #4d320f !important;
 }
 
 .cropper {
@@ -48,7 +48,7 @@ body::-webkit-scrollbar {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #212529;
+    background: url(../assets/images/HF-BG.jpg);
     z-index: 1056 !important;
 }
 
@@ -59,21 +59,34 @@ body::-webkit-scrollbar {
 .mousey {
     padding: 0.25rem 0.625rem;
     height: 2rem;
-    border: 0.1rem solid #fff;
+    border: 0.1rem solid #4d320f;
     border-radius: 1.4rem;
     opacity: 0.75;
     box-sizing: content-box;
+}
+
+.bg-motifan {
+    background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(../assets/images/HF-BG.jpg);
+}
+
+
+.bg-kedua {
+    background-color: #78BF84;
 }
 
 .scroller {
     width: 0.25rem;
     height: 0.625rem;
     border-radius: 25%;
-    background-color: #fff;
+    background-color: #4d320f;
     animation-name: scroll;
     animation-duration: 2.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+}
+
+.text-utama {
+    color: #4d320f;
 }
 
 @keyframes scroll {
